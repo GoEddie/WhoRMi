@@ -1,0 +1,43 @@
+{
+    "compute": {
+        "location": "westeurope",
+        "name": "checkit",
+        "offer": "WindowsServer",
+        "osType": "Windows",
+        "placementGroupId": "",
+        "platformFaultDomain": "0",
+        "platformUpdateDomain": "0",
+        "publisher": "MicrosoftWindowsServer",
+        "resourceGroupName": "DiskFun",
+        "sku": "2016-Datacenter",
+        "subscriptionId": "c28664e3-b4dc-4988-a744-58be58737708",
+        "tags": "mo:no;yo:ho",
+        "version": "2016.127.20180613",
+        "vmId": "d0663f26-b97a-4c4c-9132-b449c5ab5661",
+        "vmSize": "Standard_D2s_v3"
+    },
+    "network": {
+        "interface": [
+            {
+                "ipv4": {
+                    "ipAddress": [
+                        {
+                            "privateIpAddress": "10.0.0.4",
+                            "publicIpAddress": "13.73.136.181"
+                        }
+                    ],
+                    "subnet": [
+                        {
+                            "address": "10.0.0.0",
+                            "prefix": "24"
+                        }
+                    ]
+                },
+                "ipv6": {
+                    "ipAddress": []
+                },
+                "macAddress": "000D3A3A1D70"
+            }
+        ]
+    }
+}
