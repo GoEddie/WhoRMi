@@ -1,4 +1,30 @@
+<#
+    .SYNOPSIS
 
+    When you run this on an Azure VM it returns the metadata associated with the virtual machine using the local VM Metadata service
+
+    .DESCRIPTION
+
+    Get-VMMetadata connects to the local metadata service which runs on the same physical host as the virtual machines are hosted on. The service returns some really useful information such as:
+
+        location
+        name
+        resourceGroupName
+        subscriptionId
+        vmId
+        vmSize
+        tags
+        version
+    
+        offer
+        osType
+        publisher
+        sku
+        apiVersion
+        placementGroupID
+        platformFaultDomain
+
+#>
 Function Get-VMMetadata {
     [CmdletBinding()]    
     param(
